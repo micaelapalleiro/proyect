@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+/* font-family: 'Shadows Into Light', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+/* font-family: 'Smooch', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+/* font-family: 'Abel', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+/* font-family: 'Indie Flower', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+/* font-family: 'Permanent Marker', cursive; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.body{
+
+    background-image: url(multimedia/blackfond.png);
+}
+
+.barra_home ul li {
+display: inline-block;
+padding-top: 20px;
+padding-left: 10px;
+}
+.barra_home ul li a{
+    text-decoration: none;
+    color: white ;
+    padding: 10px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.title_home{
+    font-family: 'Shadows Into Light', cursive;
+    color: rgba(171, 155, 12, 0.836);
+    
+    font-size: 40px;
+    padding-top: 150px;
+    padding-left: 350px;
+}
+h6{
+    padding-left: 350px;
+    font-family:'Smooch', cursive;
+    color: rgba(234, 234, 140, 0.678);
+    font-size: 40px;
+    
+}
+
+footer{
+    background-color: rgb(123, 126, 55);
+    min-height:20px ;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+.icons a{
+    color: white;
+    padding: 5px;
+
+}
+
+#perfil{
+    max-width: 300px;
+    max-height: 500px;
+    float: left;
+    padding-top: 20px;
+    padding-left: 10px;
+    border: solid rgb(190, 182, 182) 5px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+
+.general_title{
+    background-color:  rgba(171, 155, 12, 0.836);;
+    float: right;
+    border: solid #000 3px;
+    padding-top: 15px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin-right: 5px;
+    font-size: 40px;
+    font-family:'Abel', sans-serif;
+    color: #000;
+}
+p{
+    color: beige;
+    padding-top: 50px;
+    padding-left: 20px;
+    font-family:'Indie Flower', cursive;
+    
+    
+}
+.parrafo{
+    padding-left: 350px;
+    padding-right:30px;
+    padding-top: 150px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 15px;
+}
+
+.tiger{
+    color: rgba(234, 234, 140, 0.678);
+    margin-left: 80px;
+    font-size: 50px;
+    margin-top: 60px;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+
+    
+}
+.secundary_title--left{
+    color: rgba(234, 234, 140, 0.678);
+    font-family: 'Abel', sans-serif;
+    margin-left: 20px;
+    margin-right: 500px;
+    float: left;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    border: solid rgb(190, 182, 182);
+    padding: 10px 10px 10px 10px;
+    background-color: rgba(128, 128, 128, 0.589);
+
+
+}
+
+.parrafo_descriptivo{
+    color: beige;
+    font-family:'Indie Flower', cursive;
+    margin-top: 100px;
+}
+#tipos_ansiedad{
+    color:rgb(234, 234, 140);
+    margin-left: 30px;
+    text-decoration: none;
+    font-family: 'Abel', sans-serif;
+    padding-top: 5px;
+    font-size: 20px;
+
+}
+
+#tipos_ansiedad p{
+    padding-top: 7px;
+    text-align: left;
+    font-size: 16px;
+    margin-right: 550px;
+    margin-bottom: 10px;
+}
+
+#fuente{
+    color: grey;
+    margin-left: 30px;
+    text-decoration: none;
+    border: solid rgba(234, 234, 140, 0.463);
+    margin-top: 20px;
+    padding: 5px 5px 5px 5px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.secundary_title--right{
+    color: rgba(234, 234, 140, 0.678);
+    font-family: 'Abel', sans-serif;
+    margin-right: 20px;
+    float: right;
+    border: solid rgb(190, 182, 182);
+    padding: 10px 10px 10px 10px;
+    background-color: rgba(128, 128, 128, 0.589);
+    margin-bottom: 10px;
+    
+    
+}
+.parrafo_descriptivo--right{
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 550px;
+    margin-bottom: 10px;
+}
+.video1{
+    margin-top: 150px;
+    margin-left: 20px;
+    margin-right: 500px;
+    max-width: 100%;
+    max-height: 500px;
+    
+}
+/* ubicacion y tamaños no corregidos */
+
+.parrafo_descriptivo--left{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 550px;
+    margin-bottom: 10px;
+}
+
+h2{
+    color:rgba(234, 234, 140, 0.678) ;
+    text-align: right;
+}
+.video2{
+    margin-left: 500px;
+    margin-bottom: 20px;
+    margin-top: 20px ;
+}
+
+.busqueda{
+    color: grey;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 20px 20px 20px 20px;
+    border: solid rgba(234, 234, 140, 0.678) 5px;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;    
+}
+.busqueda a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 5px 5px 5px;
+    background-color: #000;
+    border: solid white 1px;
+    font-size: 15px;
+}
+
+.secundary_title--center{
+    color: rgba(234, 234, 140, 0.678);
+    font-family: 'Abel', sans-serif;
+    margin-right: 350px;
+    margin-top: 20px;
+    float: right;
+    border: solid rgb(190, 182, 182);
+    padding: 10px 10px 10px 10px;
+    background-color: rgba(128, 128, 128, 0.589);
+    margin-bottom: 20px;
+}
+
+.parrafo_descriptivo--center{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.tratamientos{
+    color:rgba(234, 234, 140, 0.678) ;
+    margin-left: 350px;
+    margin-right: 430px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px 20px 20px 20px;
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+    border: solid white 2px;
+
+}
+.podcast a{
+    color:rgba(171, 155, 12, 0.836) ;
+    margin-left: 10px;
+    letter-spacing: 10px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.general_title--galeria{
+    background-color:  rgba(171, 155, 12, 0.836);;
+    float: right;
+    border: solid #000 3px;
+    padding-top: 15px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin-right: 5px;
+    font-size: 40px;
+    font-family:'Abel', sans-serif;
+    color: #000;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.subir{
+    
+    
+    
+    position: fixed;
+    right: 40px;
+    bottom: 20px;
+    font-size: 30px;
+    
+}
+a{
+    color: grey;
+}
+
+div legend{
+    color: white;
+    margin-left: 550px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family: 'Shadows Into Light', cursive;
+
+    
+}
+
+div h4{
+    color: white;
+    margin-left: 480px;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+
+}
+
+div label{
+    margin-left: 30px;
+    color: rgba(234, 234, 140, 0.678) ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Permanent Marker', cursive;
+
+
+}
+
+div input{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div textarea{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.boton{
+    background-color:rgba(234, 234, 140, 0.678) ;
+    padding: 5px 5px 5px 5px ;
+    border: solid 2px grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+img{
+    max-width: 400px;
+    max-height: 200px;
+    margin-left: 10px;
+}
